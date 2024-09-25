@@ -1,6 +1,8 @@
 import speech_recognition as sr
 
+from config import GOOGLE_SPEECH_RECOGNITION_API_KEY
 def record_voice(language="en-US") -> str:
+    # r = sr.Recognizer(language = "en-US", key=GOOGLE_SPEECH_RECOGNITION_API_KEY)
     r = sr.Recognizer()
     with sr.Microphone() as source:
         print("Say something!")

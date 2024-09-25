@@ -1,3 +1,5 @@
 .venv
 __pycache__
 Llama3VoiceChatbot_v2.py
+.env
+*.mp3
